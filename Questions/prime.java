@@ -39,7 +39,7 @@
 import java.util.Scanner;
 
 public class prime {
-    public static void prime(int n){
+    public static boolean prime(int n){
         int count=0;
         int flag=0;
         if(n==2){
@@ -59,6 +59,7 @@ public class prime {
         else if(flag>0){
             System.out.println("Prime");
         }
+        return false;
         
     }
 
