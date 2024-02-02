@@ -6,7 +6,7 @@ public class fibo {
         for(int i=0;i<=6;i++){
             sum=a+b;
             System.out.print(" "+sum);
-            a=b;
+            a=b;    
             b=sum;
         }
     }
