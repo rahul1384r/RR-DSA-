@@ -12,6 +12,6 @@ public class arrayList {
         list.remove(0);
         System.out.println(list);
         System.out.println(list.size());
-        System.out.println(list.contains(10));
+        System.out.println(list.contains(10f));
     }
 }
