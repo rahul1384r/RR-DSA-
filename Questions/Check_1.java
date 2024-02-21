@@ -11,6 +11,8 @@ public class Check_1 {
     }
     public static void main(String[] args) {
         int n=4;
-        tilingProblem(n, "");
+        String str="1234";
+        System.out.println(str.substring(1));
+        // tilingProblem(n, "");
     }
 }
