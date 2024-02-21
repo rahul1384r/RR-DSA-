@@ -6,13 +6,14 @@ public class recursion_10 {
         if(pow==0){
             return 1;
         }
-        int halfPower=optimizedPower(num, pow/2) * optimizedPower(num, pow/2);
+        int halfpower=optimizedPower(num, pow/2);
+        int halfPowerSq=halfpower * optimizedPower(num, pow/2);
         // for pow is odd
         if(pow%2!=0){
-            halfPower=num*halfPower;
-            return halfPower;
+            halfPowerSq=num*halfPowerSq;
+            return halfPowerSq;
         }
-        return halfPower;
+        return halfPowerSq;
     }
     public static void main(String[] args) {
          Scanner sc=new Scanner(System.in);
